@@ -1,0 +1,28 @@
+Java Conceptual Assignment
+Assignment One
+It’s 1970s : Super Public School needs help in managing the admission process. The administration usually goes through following steps:
+A student fills admission form containing following details:
+First Name
+Last Name
+DOB
+Father Name
+Address
+Previous School
+Previous class
+Previous class percentage
+Elective subjects (Each class has a set of choices to be picked from. Create an imaginary list of 3 subjects per class out of which 2 subjects need to be picked).
+Once all the forms are collected, the administration picks which students will get admission, assuming the number of forms received are more than the number of seats. If not, all students who applied get admission. Otherwise, a list is prepared sorted as per their previous class percentage. If two students have the same percentages, the student with a smaller age gets preference. If DOB are equal too, they are sorted alphabetically by surname.
+
+
+Objective 1:
+Our objective is to provide Super Public School with command based program. We need to create two programs:
+A program which can take input data from each student. Imagine students are standing in a queue and would input their data on your program one by one. We can save this data in MySQL.
+Another program will allow administration to pull list of selected students when class is input. E.g.
+Enter Class [1 to 10]: 7
+<Displays list of students>
+
+Learning Objectives
+The code must follow Google style guide
+The code must follow principles from “Effective Java”
+Create a set of JUnit Test Cases
+Create a repo on Github and raise merge requests. The merge requests should be small enough to take feedback and improve accordingly.
